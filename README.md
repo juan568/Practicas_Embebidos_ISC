@@ -51,3 +51,17 @@ Uso de arreglos y funciones para controlar una secuencia de 5 LEDs de ida y vuel
 1. `cd ~/practicas_embebidos/P3_RecorridoLedVector`
 2. `source ../P1_LedBlink/env_blink/bin/activate`
 3. `python P3_RecorridoLedVector.py`
+
+## Práctica 4: Atenuación con PWM (Vector)
+## Descripción
+Implementación de Modulación por Ancho de Pulso (PWM) para controlar la intensidad luminosa de 5 LEDs. La práctica demuestra el efecto de atenuación fluida, logrando que el tono de cada LED disminuya gradualmente hasta apagarse.
+
+### Configuración de Hardware
+* **Pines utilizados:** GPIO 17, 27, 22, 10, 9.
+* **Componentes:** 5 LEDs y 5 resistencias de 220Ω conectadas a GND.
+* **Técnica:** Variación de Duty Cycle (Ciclo de trabajo) a una frecuencia de 1000Hz.
+
+### Instrucciones de ejecución
+1. `cd ~/practicas_embebidos/P4_RecorridoLedVectorPWM`
+2. `source ../P1_LedBlink/env_blink/bin/activate`
+3. `python P4_RecorridoLedVectorPWM.py`
